@@ -8,6 +8,7 @@ export default function ActionCard({
   action: QuickActionType;
   onClick: () => void;
 }) {
+  // Minor change
   //some weird tailwind bug
   //from-primary/10 via-primary/5 to-transparent
   //from-purple-500/10 via-purple-500/5 to-transparent
